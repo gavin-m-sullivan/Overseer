@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Overseer.Accounts.Suspend.Domain\Overseer.Accounts.Suspend.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

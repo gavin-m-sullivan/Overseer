@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Overseer.Accounts.Suspend.Domain\Overseer.Accounts.Suspend.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

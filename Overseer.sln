@@ -55,6 +55,28 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overseer.Quotes.Updates.App
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overseer.Quotes.Updates.Application.Services", "Src\Overseer.Quotes.Updates.Application.Services\Overseer.Quotes.Updates.Application.Services.csproj", "{4C3E0202-3E88-444C-9EF6-0FF998F39F2B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Accounts", "Accounts", "{423A7DD3-4A33-4C41-AA37-3F3F1CE20C13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Close", "Close", "{26E989F6-26B0-48EF-9777-0F86CAF0561F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{DEDE017D-76CF-4E34-9396-D4C7E5B3CF22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overseer.Accounts.Close.Application", "Src\Overseer.Accounts.Close.Application\Overseer.Accounts.Close.Application.csproj", "{C0D721B6-4662-4A91-8C49-210AE74A96B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overseer.Accounts.Close.Application.Services", "Src\Overseer.Accounts.Close.Application.Services\Overseer.Accounts.Close.Application.Services.csproj", "{59CAD81A-8F78-44A9-B217-D52475E38DFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overseer.Accounts.Close.Domain", "Src\Overseer.Accounts.Close.Domain\Overseer.Accounts.Close.Domain.csproj", "{18674091-10A9-4E76-BF13-C54112303B9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overseer.Accounts.Close.Domain.Services", "Src\Overseer.Accounts.Close.Domain.Services\Overseer.Accounts.Close.Domain.Services.csproj", "{B9C11C64-B3D7-4F6E-93BA-2854556E65D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overseer.Accounts.Close.Infrastructure.Events.Queues", "Src\Overseer.Accounts.Close.Infrastructure.Events.Queues\Overseer.Accounts.Close.Infrastructure.Events.Queues.csproj", "{C36C084F-7408-488A-B7C3-3BEDED0C7766}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overseer.Accounts.Close.Infrastructure.Persistence.Sql", "Src\Overseer.Accounts.Close.Infrastructure.Persistence.Sql\Overseer.Accounts.Close.Infrastructure.Persistence.Sql.csproj", "{D42474CD-DB09-43FB-A597-2D7ABF19CEB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creation", "Creation", "{57C26B72-0292-4383-B55E-072B57888834}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{4534C4B0-76C6-42A0-AA73-0FF2BB726B05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -133,6 +155,30 @@ Global
 		{4C3E0202-3E88-444C-9EF6-0FF998F39F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C3E0202-3E88-444C-9EF6-0FF998F39F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C3E0202-3E88-444C-9EF6-0FF998F39F2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0D721B6-4662-4A91-8C49-210AE74A96B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0D721B6-4662-4A91-8C49-210AE74A96B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0D721B6-4662-4A91-8C49-210AE74A96B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0D721B6-4662-4A91-8C49-210AE74A96B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59CAD81A-8F78-44A9-B217-D52475E38DFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59CAD81A-8F78-44A9-B217-D52475E38DFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59CAD81A-8F78-44A9-B217-D52475E38DFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59CAD81A-8F78-44A9-B217-D52475E38DFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18674091-10A9-4E76-BF13-C54112303B9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18674091-10A9-4E76-BF13-C54112303B9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18674091-10A9-4E76-BF13-C54112303B9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18674091-10A9-4E76-BF13-C54112303B9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9C11C64-B3D7-4F6E-93BA-2854556E65D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9C11C64-B3D7-4F6E-93BA-2854556E65D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9C11C64-B3D7-4F6E-93BA-2854556E65D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9C11C64-B3D7-4F6E-93BA-2854556E65D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C36C084F-7408-488A-B7C3-3BEDED0C7766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C36C084F-7408-488A-B7C3-3BEDED0C7766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C36C084F-7408-488A-B7C3-3BEDED0C7766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C36C084F-7408-488A-B7C3-3BEDED0C7766}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D42474CD-DB09-43FB-A597-2D7ABF19CEB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D42474CD-DB09-43FB-A597-2D7ABF19CEB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D42474CD-DB09-43FB-A597-2D7ABF19CEB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D42474CD-DB09-43FB-A597-2D7ABF19CEB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -163,5 +209,16 @@ Global
 		{6EEC9973-DC45-45E7-9BD0-6396620366F9} = {BF5CD7DE-2486-42FB-A038-20573EC5DB6D}
 		{39430F67-BD9A-48C7-9CC9-8C9546C63E29} = {BF5CD7DE-2486-42FB-A038-20573EC5DB6D}
 		{4C3E0202-3E88-444C-9EF6-0FF998F39F2B} = {BF5CD7DE-2486-42FB-A038-20573EC5DB6D}
+		{423A7DD3-4A33-4C41-AA37-3F3F1CE20C13} = {5AC944FF-3186-4B69-9FA1-6B77EF5A2F7A}
+		{26E989F6-26B0-48EF-9777-0F86CAF0561F} = {423A7DD3-4A33-4C41-AA37-3F3F1CE20C13}
+		{DEDE017D-76CF-4E34-9396-D4C7E5B3CF22} = {26E989F6-26B0-48EF-9777-0F86CAF0561F}
+		{C0D721B6-4662-4A91-8C49-210AE74A96B1} = {26E989F6-26B0-48EF-9777-0F86CAF0561F}
+		{59CAD81A-8F78-44A9-B217-D52475E38DFB} = {26E989F6-26B0-48EF-9777-0F86CAF0561F}
+		{18674091-10A9-4E76-BF13-C54112303B9F} = {26E989F6-26B0-48EF-9777-0F86CAF0561F}
+		{B9C11C64-B3D7-4F6E-93BA-2854556E65D9} = {26E989F6-26B0-48EF-9777-0F86CAF0561F}
+		{C36C084F-7408-488A-B7C3-3BEDED0C7766} = {DEDE017D-76CF-4E34-9396-D4C7E5B3CF22}
+		{D42474CD-DB09-43FB-A597-2D7ABF19CEB5} = {DEDE017D-76CF-4E34-9396-D4C7E5B3CF22}
+		{57C26B72-0292-4383-B55E-072B57888834} = {423A7DD3-4A33-4C41-AA37-3F3F1CE20C13}
+		{4534C4B0-76C6-42A0-AA73-0FF2BB726B05} = {57C26B72-0292-4383-B55E-072B57888834}
 	EndGlobalSection
 EndGlobal

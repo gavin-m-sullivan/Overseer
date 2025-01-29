@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Overseer.Quotes.Creation.Application\Overseer.Quotes.Creation.Application.csproj" />
+    <ProjectReference Include="..\Overseer.Quotes.Creation.Domain\Overseer.Quotes.Creation.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Overseer.Orders.Retrieval.Application\Overseer.Orders.Retrieval.Application.csproj" />
+    <ProjectReference Include="..\Overseer.Orders.Retrieval.Domain\Overseer.Orders.Retrieval.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Overseer.Quotes.Convert.Application\Overseer.Quotes.Convert.Application.csproj" />
+    <ProjectReference Include="..\Overseer.Quotes.Convert.Domain\Overseer.Quotes.Convert.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

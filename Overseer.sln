@@ -299,6 +299,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overseer.Orders.InProgress.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overseer.Orders.InProgress.Infrastructure.Persistence.Sql", "Src\Overseer.Orders.InProgress.Infrastructure.Persistence.Sql\Overseer.Orders.InProgress.Infrastructure.Persistence.Sql.csproj", "{F1281240-5854-4BE4-9F62-9F25B6C14659}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C49C0060-FEC8-4B7B-8891-6FF5CD1B7136}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountsCreation", "Tests\AccountsCreation\AccountsCreation.csproj", "{0E53F9C7-A2CF-4DC4-9D7C-993E33F72DF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -737,6 +741,10 @@ Global
 		{F1281240-5854-4BE4-9F62-9F25B6C14659}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1281240-5854-4BE4-9F62-9F25B6C14659}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1281240-5854-4BE4-9F62-9F25B6C14659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E53F9C7-A2CF-4DC4-9D7C-993E33F72DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E53F9C7-A2CF-4DC4-9D7C-993E33F72DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E53F9C7-A2CF-4DC4-9D7C-993E33F72DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E53F9C7-A2CF-4DC4-9D7C-993E33F72DF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -889,5 +897,7 @@ Global
 		{C6208B92-19A7-486D-8178-C1170287671F} = {7F7EC6DA-3460-42F8-A665-2B1EB05D4E69}
 		{C88FF9EF-000C-46D3-B6C3-3B0E4EEA3C46} = {CE5F8B5D-C652-4501-B8D5-E93AC1D0C2B0}
 		{F1281240-5854-4BE4-9F62-9F25B6C14659} = {CE5F8B5D-C652-4501-B8D5-E93AC1D0C2B0}
+		{C49C0060-FEC8-4B7B-8891-6FF5CD1B7136} = {57C26B72-0292-4383-B55E-072B57888834}
+		{0E53F9C7-A2CF-4DC4-9D7C-993E33F72DF2} = {C49C0060-FEC8-4B7B-8891-6FF5CD1B7136}
 	EndGlobalSection
 EndGlobal
